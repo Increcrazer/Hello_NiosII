@@ -1,0 +1,50 @@
+# 保留这些类型
+# *.vhd
+# *.v
+# *.sdc
+# *.sof
+# *.pof
+# *.ttf
+# *.tcl
+# *.qsf
+# *.qsys
+# *sopcinfo
+# *bdf
+# *gdf
+
+# 忽略这些文件下所有内容，因为这是quartus可以生成的文件
+/.qsys_edit/*
+/db/*
+/greybox_tmp/*
+/incremental_db/*
+/simulation/*
+/testbench/*
+/timing/*
+/unsaved/*
+
+
+# 忽略这些类型
+*_generation_script*
+*_inst.vhd
+*.bak
+*.cmp
+*.done
+*.eqn
+*.hex
+*.html
+*.jdi
+*.jpg
+*.mif
+*.pin
+*.ptf.*
+*.qar
+*.qarlog
+*.qws
+*.rpt
+*.smsg
+*.sopc_builder
+*.summary
+*.txt # Explicitly add any text files used
+*~
+*example*
+*sopc_*
