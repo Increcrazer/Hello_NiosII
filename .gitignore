@@ -22,7 +22,6 @@ testbench/
 timing/
 unsaved/
 hello/
-software/*
 !software/Hello_Nios_II/*.c
 
 

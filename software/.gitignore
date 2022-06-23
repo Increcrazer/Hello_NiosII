@@ -1,0 +1,23 @@
+# 保留这些类型
+# *.vhd
+# *.v
+# *.sdc
+# *.sof
+# *.pof
+# *.ttf
+# *.tcl
+# *.qsf
+# *.qsys
+# *sopcinfo
+# *bdf
+# *gdf
+
+# 忽略这些文件下所有内容，因为这是quartus可以生成的文件
+.metadata/
+Hello_Nios_II/*
+!Hello_Nios_II/*.c
+Hello_Nios_II_bsp/
+RemoteSystemsTempFiles/
+
+
+
