@@ -13,16 +13,17 @@
 # *gdf
 
 # 忽略这些文件下所有内容，因为这是quartus可以生成的文件
-/.qsys_edit/
-/db/
-/greybox_tmp/
-/incremental_db/
-/simulation/
-/testbench/
-/timing/
-/unsaved/
-/hello/
-/software/
+.qsys_edit/
+db/
+greybox_tmp/
+incremental_db/
+simulation/
+testbench/
+timing/
+unsaved/
+hello/
+software/*
+!software/Hello_Nios_II/*.c
 
 
 # 忽略这些类型
