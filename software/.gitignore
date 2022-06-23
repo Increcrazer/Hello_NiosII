@@ -1,0 +1,10 @@
+
+.metadata/
+Hello_Nios_II/*
+!Hello_Nios_II/*.c
+Hello_Nios_II_bsp/
+RemoteSystemsTempFiles/
+
+
+
+
